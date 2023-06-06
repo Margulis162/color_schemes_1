@@ -1,0 +1,24 @@
+#deep_blue {
+  background-color: analogous_blue.$color_seven;
+}
+#spaced_nav {
+  flex-grow: 1;
+  justify-content: space-around;
+}
+#lft_align {
+  justify-content: flex-start;
+}
+#menu_item {
+  a {
+    color: analogous_blue.$color_one;
+  }
+}
+#menu_item_active {
+  a {
+    background-color: analogous_blue.$color_four;
+  }
+}
+#brnd {
+  text-align: center;
+  color: analogous_blue.$color_six;
+}
