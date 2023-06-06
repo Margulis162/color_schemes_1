@@ -1,0 +1,40 @@
+#deep_blue {
+  background-color: #15366c;
+}
+
+#spaced_nav {
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+#lft_align {
+  justify-content: flex-start;
+}
+
+#menu_item a {
+  color: #77c8ce;
+}
+
+#menu_item_active a {
+  background-color: #f5f9ff;
+}
+
+#brnd {
+  text-align: center;
+  color: #7778ce;
+}
+
+body {
+  background-color: #77a8ce;
+}
+
+p {
+  color: #15366c;
+}
+
+#high_contrast {
+  background-color: #f5f9ff;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=general.css.map */

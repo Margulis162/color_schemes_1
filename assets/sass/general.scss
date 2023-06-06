@@ -1,0 +1,12 @@
+@use "abstract/analogous_blue";
+@import 'elements/navbar.scss';
+body{
+    background-color: analogous_blue.$color_two;
+}
+p{
+    color:analogous_blue.$color_seven;
+}
+#high_contrast{
+    background-color: analogous_blue.$color_four;
+    height: 100vh;
+}
