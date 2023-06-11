@@ -1,27 +1,38 @@
 #deep_blue {
   background-color: #15366c;
+  justify-content: center;
+  height: inherit;
+  padding-bottom: 0;
 }
 
-#spaced_nav {
-  flex-grow: 1;
+#ul_style {
+  list-style: none;
+  width: 1320px;
   justify-content: space-around;
+  padding-bottom: 0;
 }
 
-#lft_align {
-  justify-content: flex-start;
+#menu_item {
+  width: 25%;
 }
-
 #menu_item a {
   color: #77c8ce;
 }
 
-#menu_item_active a {
+#menu_item_active {
+  width: 25%;
   background-color: #f5f9ff;
+  border-radius: 5px 5px 0px 0px;
 }
 
-#brnd {
-  text-align: center;
-  color: #7778ce;
+#high_contrast {
+  background-color: #f5f9ff;
+  height: 100vh;
+  padding-top: 30px;
+}
+
+#Degas {
+  width: 100%;
 }
 
 body {
@@ -30,11 +41,6 @@ body {
 
 p {
   color: #15366c;
-}
-
-#high_contrast {
-  background-color: #f5f9ff;
-  height: 100vh;
 }
 
 /*# sourceMappingURL=general.css.map */
