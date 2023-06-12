@@ -1,7 +1,7 @@
 #deep_blue {
   background-color: analogous_blue.$color_seven;
   justify-content: center;
-  height:inherit;
+
   padding-bottom:0;
 }
 
@@ -9,21 +9,26 @@
   list-style: none;
   width: 1320px;
   justify-content: space-around;
+  align-items:flex-end;
   padding-bottom: 0;
 }
 
 #menu_item {
   a {
     color: analogous_blue.$color_one;
-    
-    
+    font-size:120%; 
+    font-weight:bold; 
+   
   }
   width:25%;
 }
 #menu_item_active {
- 
+   
     width:25%;
+    height:100%;
     background-color: analogous_blue.$color_four;
     border-radius: 5px 5px 0px 0px;
-  
-}
+    font-size:120%; 
+    font-weight:bold;   
+  }
+

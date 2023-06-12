@@ -1,8 +1,14 @@
 @use "abstract/analogous_blue";
 @import 'elements/navbar.scss';
 @import 'elements/article.scss';
+@import "elements/footer.scss";
 body{
     background-color: analogous_blue.$color_two;
+   display:flex;
+   flex-direction:column;
+   margin:0;
+   padding:0;
+   
  
 }
 p{

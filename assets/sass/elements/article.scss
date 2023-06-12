@@ -1,8 +1,20 @@
-#high_contrast{
-    background-color: analogous_blue.$color_four;
-    height: 100vh;
-    padding-top:30px;
+#high_contrast {
+  background-color: analogous_blue.$color_four;
+  height: 90vh;
+  padding-top: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-#Degas{
-    width:100%;
+#Degas {
+  width: 100%;
+}
+
+
+
+
+ @media (max-width: 1320px) {
+   #sm {
+    max-width: inherit;
+   }
+ 
 }
