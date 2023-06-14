@@ -35,6 +35,7 @@
   height: 90vh;
   padding-top: 30px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  overflow: scroll;
 }
 
 #Degas {
@@ -43,32 +44,27 @@
 
 @media (max-width: 1320px) {
   #sm {
-    max-width: inherit;
+    max-width: 100%;
   }
 }
 #ftr {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 5vh;
-}
-
-#info {
-  display: flex;
-  width: 1320px;
   justify-content: space-between;
   padding-left: 20px;
   padding-right: 20px;
-  height: inherit;
+  align-items: center;
   background-color: #f5f9ff;
-  color: #7a8ba7;
-}
-#info a {
-  color: #7a8ba7;
-  text-decoration: none;
+  flex-grow: 1;
+  width: 1320px;
+  align-self: center;
+  height: 6vh;
 }
 
+@media (max-width: 1310px) {
+  #ftr {
+    max-width: 100%;
+  }
+}
 body {
   background-color: #77a8ce;
   display: flex;
