@@ -10,6 +10,7 @@
   justify-content: space-around;
   align-items: flex-end;
   padding-bottom: 0;
+  align-self: center;
 }
 
 #menu_item {
@@ -30,12 +31,16 @@
   font-weight: bold;
 }
 
+#fix {
+  justify-content: center;
+}
+
 #high_contrast {
   background-color: #f5f9ff;
   height: 90vh;
   padding-top: 30px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 #Degas {
@@ -49,6 +54,7 @@
 }
 #ftr {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding-left: 20px;
   padding-right: 20px;
@@ -57,7 +63,7 @@
   flex-grow: 1;
   width: 1320px;
   align-self: center;
-  height: 6vh;
+  overflow-wrap: break-word;
 }
 
 @media (max-width: 1310px) {

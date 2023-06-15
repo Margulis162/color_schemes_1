@@ -1,5 +1,6 @@
 #ftr {
   display: flex;
+  flex-direction:column;
   justify-content: space-between;
   padding-left: 20px;
   padding-right: 20px;
@@ -10,7 +11,8 @@
   flex-grow:1;
   width: 1320px;
   align-self:center;
-  height:6vh;
+  
+  overflow-wrap: break-word;
 }
 
 @media (max-width: 1310px) {
