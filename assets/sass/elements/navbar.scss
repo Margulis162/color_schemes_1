@@ -1,37 +1,52 @@
-#deep_blue {
+#nav_bar {
+  display: flex;
+  flex-direction:row;
   background-color: analogous_blue.$color_seven;
+  height: 7vh;
   justify-content: center;
-
-  padding-bottom:0;
+  flex: 1 1 auto;
 }
 
 #ul_style {
+  display: flex;
   list-style: none;
   width: 1320px;
   justify-content: space-around;
-  align-items:flex-end;
+  align-items: flex-end;
   padding-bottom: 0;
-  align-self:center;
 }
 
 #menu_item {
   a {
-    color: analogous_blue.$color_one;
-    font-size:120%; 
-    font-weight:bold; 
-   
-  }
-  width:25%;
-}
-#menu_item_active {
-   
-    width:25%;
+    display:flex;
+    color: analogous_blue.$color_four;
+    align-items: flex-end;
+    font-size: 120%;
+    font-weight: bold;
+    justify-content:center;
+    text-decoration:none;
     height:100%;
-    background-color: analogous_blue.$color_four;
-    border-radius: 5px 5px 0px 0px;
-    font-size:120%; 
-    font-weight:bold;   
   }
+  width: 25%;
+  padding-bottom:10px;
+}
 
-#fix{
-  justify-content:center;}
+#menu_item_active {
+  width: 25%;
+  height: 100%;
+  background-color: analogous_blue.$color_four;
+  border-radius: 5px 5px 0px 0px;
+  padding-bottom:10px;
+  
+  height: 67%;
+  a {
+    text-decoration:none;
+    display:flex;
+    color: analogous_blue.$color_seven;
+    font-size: 120%;
+    font-weight: bold;
+    justify-content:center;
+    align-items: flex-end;
+    height:100%;
+    font-style:none;
+  }}

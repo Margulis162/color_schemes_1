@@ -1,21 +1,30 @@
-#high_contrast {
+#artcl{
+  display:flex;
+  flex-direction:column;
   background-color: analogous_blue.$color_four;
-  height: 90vh;
+  align-self:center;
+  
+  flex:1 0 90vh;
+
   padding-top: 30px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  width:1320px;
   overflow-y:scroll;
 }
 #Degas {
-  width: 100%;
+  width: 25%;
+  
+  overflow: hidden;
+
 }
 
 
 
 
- @media (max-width: 1320px) {
-   #sm {
-    max-width: 100%;
-   }
+//  @media (max-width: 1320px) {
+//    #sm {
+//     max-width: 100%;
+//    }
  
-}
+// }

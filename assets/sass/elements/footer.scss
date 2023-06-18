@@ -1,18 +1,17 @@
 #ftr {
   display: flex;
-  flex-direction:column;
-  justify-content: space-between;
-  padding-left: 20px;
-  padding-right: 20px;
+  flex-direction:row;
+  justify-content:space-between;
+  
   align-items: center;
   // background-color: analogous_blue.$color_seven;
   // color:analogous_blue.$color_four;
   background-color: analogous_blue.$color_four;
-  flex-grow:1;
+  
   width: 1320px;
   align-self:center;
+  height:3vh;
   
-  overflow-wrap: break-word;
 }
 
 @media (max-width: 1310px) {

@@ -1,25 +1,34 @@
-#deep_blue {
+#nav_bar {
+  display: flex;
+  flex-direction: row;
   background-color: #15366c;
+  height: 7vh;
   justify-content: center;
-  padding-bottom: 0;
+  flex: 1 1 auto;
 }
 
 #ul_style {
+  display: flex;
   list-style: none;
   width: 1320px;
   justify-content: space-around;
   align-items: flex-end;
   padding-bottom: 0;
-  align-self: center;
 }
 
 #menu_item {
   width: 25%;
+  padding-bottom: 10px;
 }
 #menu_item a {
-  color: #77c8ce;
+  display: flex;
+  color: #f5f9ff;
+  align-items: flex-end;
   font-size: 120%;
   font-weight: bold;
+  justify-content: center;
+  text-decoration: none;
+  height: 100%;
 }
 
 #menu_item_active {
@@ -27,43 +36,47 @@
   height: 100%;
   background-color: #f5f9ff;
   border-radius: 5px 5px 0px 0px;
+  padding-bottom: 10px;
+  height: 67%;
+}
+#menu_item_active a {
+  text-decoration: none;
+  display: flex;
+  color: #15366c;
   font-size: 120%;
   font-weight: bold;
-}
-
-#fix {
   justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  font-style: none;
 }
 
-#high_contrast {
+#artcl {
+  display: flex;
+  flex-direction: column;
   background-color: #f5f9ff;
-  height: 90vh;
+  align-self: center;
+  flex: 1 0 90vh;
   padding-top: 30px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  width: 1320px;
   overflow-y: scroll;
 }
 
 #Degas {
-  width: 100%;
+  width: 25%;
+  overflow: hidden;
 }
 
-@media (max-width: 1320px) {
-  #sm {
-    max-width: 100%;
-  }
-}
 #ftr {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-  padding-left: 20px;
-  padding-right: 20px;
   align-items: center;
   background-color: #f5f9ff;
-  flex-grow: 1;
   width: 1320px;
   align-self: center;
-  overflow-wrap: break-word;
+  height: 3vh;
 }
 
 @media (max-width: 1310px) {
@@ -75,8 +88,6 @@ body {
   background-color: #77a8ce;
   display: flex;
   flex-direction: column;
-  margin: 0;
-  padding: 0;
 }
 
 p {
