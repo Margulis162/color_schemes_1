@@ -6,11 +6,13 @@ body{
     background-color: analogous_blue.$color_two;
    display:flex;
    flex-direction:column;
-  
-  
+   scrollbar-width: none;
+   height:100vh;
+   overflow:hidden;
+   p{
+       color:analogous_blue.$color_seven;
+   }
+ 
    
  
-}
-p{
-    color:analogous_blue.$color_seven;
 }

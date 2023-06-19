@@ -1,30 +1,56 @@
-#artcl{
-  display:flex;
-  flex-direction:column;
-  background-color: analogous_blue.$color_four;
-  align-self:center;
+#artcl {
+  display: flex;
+  flex-flow:row  wrap;
   
-  flex:1 0 90vh;
+  background-color: analogous_blue.$color_four;
+  align-self: center;
+  justify-content:space-between;
+
+  flex: 1 0 90vh;
 
   padding-top: 30px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  width:1320px;
-  overflow-y:scroll;
-}
-#Degas {
-  width: 25%;
+  width: 1320px;
+  overflow-y: scroll;
+  scrollbar-width: none;
   
-  overflow: hidden;
+  #Degas {
+    height: 300px;
+   
+   
+    img {
+      height: 300px;
+      width: 330px;
+    }
+  }
+  #txt {
+    display: flex;
+    flex:1 1 auto;
+    flex-flow: column  wrap ;
+    width:300px;
 
+    margin: 0px 50px 0px 50px;
+    h1 {
+     
+      margin-bottom: 25px;
+      font-size: large;
+      font-weight: 600;
+    }
+    p {
+      margin-bottom: 25px;
+     
+    }
+  }
+
+  // #txt{
+  //   align-self:flex-end;
+  // }
+
+  //  @media (max-width: 1320px) {
+  //    #sm {
+  //     max-width: 100%;
+  //    }
 }
-
-
-
-
-//  @media (max-width: 1320px) {
-//    #sm {
-//     max-width: 100%;
-//    }
- 
-// }
+#artcl::-webkit-scrollbar{
+  display: none;}
