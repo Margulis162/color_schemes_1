@@ -9,7 +9,6 @@
 #ul_style {
   display: flex;
   list-style: none;
-  width: 1320px;
   justify-content: space-around;
   align-items: flex-end;
   padding-bottom: 0;
@@ -32,7 +31,7 @@
 }
 
 #menu_item_active {
-  width: 25%;
+  width: 25% !important;
   height: 100%;
   background-color: #f5f9ff;
   border-radius: 5px 5px 0px 0px;
@@ -51,11 +50,10 @@
 #artcl {
   display: flex;
   flex-flow: row wrap;
-  background-color: #f5f9ff;
+  background-color: #f5f9ff !important;
   align-self: center;
   justify-content: space-between;
   flex: 1 0 90vh;
-  padding-top: 30px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   width: 1320px;
   overflow-y: scroll;
@@ -111,7 +109,7 @@
   }
 }
 body {
-  background-color: #77a8ce;
+  background-color: #77a8ce !important;
   display: flex;
   flex-direction: column;
   scrollbar-width: none;

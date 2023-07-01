@@ -2,13 +2,13 @@
   display: flex;
   flex-flow:row  wrap;
   
-  background-color: analogous_blue.$color_four;
+  background-color: analogous_blue.$color_four !important;
   align-self: center;
   justify-content:space-between;
 
   flex: 1 0 90vh;
 
-  padding-top: 30px;
+  
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   width: 1320px;
