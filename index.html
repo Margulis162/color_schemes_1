@@ -23,26 +23,27 @@
   ></script>
   </head>
   <body>
+   
     <!-- The idea of this project is to create a basic web page layout and to apply different color schemes to it. It would remind me few  things about CSS as well as
         about colot theory. I also will mess with layout a bit, but just to the extend when it is not too ugly.-->
         
-        <div class="container bg-primary"">
-        <nav  class="navbar  navbar-expand-md">
+        <div class="container bg-primary gy-0 gx-0 ">
+  <nav  class="navbar  navbar-expand-md" id="nav_bar">
     
-    
-      <div class="collapse navbar-collapse" id="nav">
-    <ul class="navbar-nav" >
-      <li  class="nav-item" id="menu_item"><a class="nav-link  text-light active" href="index.html">Analogous</a></li>
-      <li  class="nav-item"><a class="nav-link" href="scheme_2_.html">Complementary</a></li>
-      <li  class="nav-item"><a  class="nav-link" href="scheme_3.html">Monochromatic</a></li>
-      <li  class="nav-item"><a   class="nav-link" href="scheme_4.html">Triadic</a></li>
-    </ul>
-    </div>
-    
-  </nav>
-</div>
 
-      <div class="container">
+      <div class="collapse navbar-collapse" id="nav">
+     <ul class="navbar-nav" id="ul_style" >
+      <li  class="nav-item" id="menu_item_active"><a class="nav-link  active" href="index.html">Analogous</a></li>
+      <li  class="nav-item" id="menu_item"><a class="nav-link" href="scheme_2_.html">Complementary</a></li>
+      <li  class="nav-item" id="menu_item"><a  class="nav-link" href="scheme_3.html">Monochromatic</a></li>
+      <li  class="nav-item" id="menu_item"><a   class="nav-link" href="scheme_4.html">Triadic</a></li>
+    </ul> 
+     </div> 
+    
+   </nav>
+</div> 
+
+      <div class="container gx-0"> <!-- gx is a fix for that strange alingment issue. Present on different browsers, the cause seems to be in --bs-gutter-x -->
 
         <article id="artcl">
           
@@ -73,9 +74,9 @@
         <span>&copy all text generated  &nbsp|&nbsp design by Mark Margulis</span> <a href="#">contact</a>
         
       </footer>
-    </div>
+    </div> 
     </body>
-    </html>
+    </html> 
 
 <!-- TODO: 1. Add media queriy brake points
       2. Add content and colors for the other pages
