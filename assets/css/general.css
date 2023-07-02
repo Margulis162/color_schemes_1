@@ -79,7 +79,7 @@
 }
 
 #ftr {
-  align-content: bottom;
+  justify-self: flex-end;
 }
 
 body {
