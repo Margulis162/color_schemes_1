@@ -1,47 +1,59 @@
 #artcl {
-  display: flex;
-  flex-flow:row  wrap;
-  
-  background-color: analogous_blue.$color_four !important;
-  align-self: center;
-  justify-content:space-between;
+//   display: flex;
+//   flex-flow:row  wrap;
+  height:100%;
+  background-color: analogous_blue.$color_four;
+//   align-self: center;
+//   justify-content:space-between;
 
-  flex: 1 0 90vh;
+//   flex: 1 0 90vh;
 
-  
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  width: 1320px;
+font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+"Lucida Sans", Arial, sans-serif;
+#Degas{
+  margin-top:30px;
+
+}
+    figure{
+      img{
+        width:100%;
+        height:100%;
+      }
+    }
+    #txt{
+      margin: 30px 0px 0px 30px;  
+    }
+//   width: 1320px;
   overflow-y: scroll;
   scrollbar-width: none;
-  
-  #Degas {
-    height: 300px;
+}
+//   #Degas {
+//     height: 300px;
    
    
-    img {
-      height: 300px;
-      width: 330px;
-    }
-  }
-  #txt {
-    display: flex;
-    flex:1 1 auto;
-    flex-flow: column  wrap ;
-    width:300px;
+//     img {
+//       height: 300px;
+//       width: 330px;
+//     }
+//   }
+//   #txt {
+//     display: flex;
+//     flex:1 1 auto;
+//     flex-flow: column  wrap ;
+//     width:300px;
 
-    margin: 0px 50px 0px 50px;
-    h1 {
+//     margin: 0px 50px 0px 50px;
+//     h1 {
      
-      margin-bottom: 25px;
-      font-size: large;
-      font-weight: 600;
-    }
-    p {
-      margin-bottom: 25px;
+//       margin-bottom: 25px;
+//       font-size: large;
+//       font-weight: 600;
+//     }
+//     p {
+//       margin-bottom: 25px;
      
-    }
-  }
+//     }
+//   }
 
   // #txt{
   //   align-self:flex-end;
@@ -51,6 +63,6 @@
   //    #sm {
   //     max-width: 100%;
   //    }
-}
+// }
 #artcl::-webkit-scrollbar{
   display: none;}

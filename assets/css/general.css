@@ -1,5 +1,5 @@
 #nav_main {
-  background-color: #15366c;
+  background-color: #054b5b;
 }
 
 #ul_style {
@@ -18,7 +18,7 @@
   margin-top: 10px;
   text-decoration: none;
   display: flex;
-  color: #15366c;
+  color: #054b5b;
   font-size: 120%;
   font-weight: bold;
   justify-content: center;
@@ -45,7 +45,7 @@
     align-items: center;
   }
   #ul_style #menu_item_active {
-    background-color: #15366c;
+    background-color: #054b5b;
   }
   #ul_style #menu_item_active a {
     color: #f5f9ff;
@@ -57,38 +57,21 @@
   }
 }
 #artcl {
-  display: flex;
-  flex-flow: row wrap;
-  background-color: #f5f9ff !important;
-  align-self: center;
-  justify-content: space-between;
-  flex: 1 0 90vh;
+  height: 100%;
+  background-color: #f5f9ff;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  width: 1320px;
   overflow-y: scroll;
   scrollbar-width: none;
 }
 #artcl #Degas {
-  height: 300px;
+  margin-top: 30px;
 }
-#artcl #Degas img {
-  height: 300px;
-  width: 330px;
+#artcl figure img {
+  width: 100%;
+  height: 100%;
 }
 #artcl #txt {
-  display: flex;
-  flex: 1 1 auto;
-  flex-flow: column wrap;
-  width: 300px;
-  margin: 0px 50px 0px 50px;
-}
-#artcl #txt h1 {
-  margin-bottom: 25px;
-  font-size: large;
-  font-weight: 600;
-}
-#artcl #txt p {
-  margin-bottom: 25px;
+  margin: 30px 0px 0px 30px;
 }
 
 #artcl::-webkit-scrollbar {
@@ -96,27 +79,9 @@
 }
 
 #ftr {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #f5f9ff;
-  width: 1320px;
-  align-self: center;
-  height: 3vh;
-}
-#ftr span {
-  margin: 0px 0px 0px 50px;
-}
-#ftr a {
-  margin-right: 50px;
+  align-content: bottom;
 }
 
-@media (max-width: 1310px) {
-  #ftr {
-    max-width: 100%;
-  }
-}
 body {
   background-color: #77a8ce !important;
   display: flex;
@@ -126,7 +91,7 @@ body {
   overflow: hidden;
 }
 body p {
-  color: #15366c;
+  color: #054b5b;
 }
 
 /*# sourceMappingURL=general.css.map */

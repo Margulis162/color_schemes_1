@@ -1,26 +1,27 @@
 #ftr {
-  display: flex;
-  flex-direction:row;
-  justify-content:space-between;
+  align-content: bottom;
+//   display: flex;
+//   flex-direction:row;
+//   justify-content:space-between;
   
-  align-items: center;
-  // background-color: analogous_blue.$color_seven;
-  // color:analogous_blue.$color_four;
-  background-color: analogous_blue.$color_four;
+//   align-items: center;
+//   // background-color: analogous_blue.$color_seven;
+//   // color:analogous_blue.$color_four;
+//   background-color: analogous_blue.$color_four;
   
-  width: 1320px;
-  align-self:center;
-  height:3vh;
-  span{
-    margin:0px 0px 0px 50px;
-  }
-  a{margin-right:50px;}
-}
+//   width: 1320px;
+//   align-self:center;
+//   height:3vh;
+//   span{
+//     margin:0px 0px 0px 50px;
+//   }
+//   a{margin-right:50px;}
+// }
 
-@media (max-width: 1310px) {
-    #ftr{
-     max-width: 100%;
-    }
+// @media (max-width: 1310px) {
+//     #ftr{
+//      max-width: 100%;
+//     }
   
  }
 // TODO make media query a mixin
