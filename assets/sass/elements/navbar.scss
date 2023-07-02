@@ -1,7 +1,6 @@
 #nav_main{
    background-color: analogous_blue.$color_seven;
-  #collapse_button{
-    color:analogous_blue.$color_four;
+  
   }
   #ul_style {
     display: flex;
@@ -49,4 +48,20 @@
 }
 
 
+
+@media(max-width:768px){
+#ul_style{
+  align-items: center;
+  #menu_item_active{
+    background-color: analogous_blue.$color_seven;
+    a{
+    color:analogous_blue.$color_four;
+    }
+  }
+}
+#toggler_icon{
+ width:100%;
+  align-self:center;
+  margin:10px;
+}
 }
