@@ -3,7 +3,7 @@
 @import 'elements/article.scss';
 @import "elements/footer.scss";
 body{
-    background-image: linear-gradient(analogous_blue.$color_six, analogous_blue.$color_seven); 
+    background-color: analogous_blue.$color_two !important; 
    display:flex;
    flex-direction:column;
    scrollbar-width: none;
