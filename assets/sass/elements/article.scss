@@ -21,7 +21,10 @@ font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       }
     }
     #txt{
-      margin-top: 30px;  
+      h1{
+        font-size: 150%;
+        color: analogous_blue.$color_seven
+      }
       
     }
 //   width: 1320px;
