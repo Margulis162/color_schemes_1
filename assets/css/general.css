@@ -1,5 +1,5 @@
 #nav_main {
-  background-color: #054b5b;
+  background-image: linear-gradient(#012f39, #7778ce);
 }
 
 #ul_style {
@@ -18,7 +18,7 @@
   margin-top: 10px;
   text-decoration: none;
   display: flex;
-  color: #054b5b;
+  color: #012f39;
   font-size: 120%;
   font-weight: bold;
   justify-content: center;
@@ -45,7 +45,7 @@
     align-items: center;
   }
   #ul_style #menu_item_active {
-    background-color: #054b5b;
+    background-color: #012f39;
   }
   #ul_style #menu_item_active a {
     color: #f5f9ff;
@@ -72,7 +72,7 @@
 }
 #artcl #txt h1 {
   font-size: 150%;
-  color: #054b5b;
+  color: #012f39;
 }
 
 #artcl::-webkit-scrollbar {
@@ -88,7 +88,7 @@
 }
 
 body {
-  background-color: #77a8ce !important;
+  background-image: linear-gradient(#7778ce, #012f39);
   display: flex;
   flex-direction: column;
   scrollbar-width: none;
@@ -96,7 +96,7 @@ body {
   overflow: hidden;
 }
 body p {
-  color: #054b5b;
+  color: #012f39;
 }
 
 /*# sourceMappingURL=general.css.map */
