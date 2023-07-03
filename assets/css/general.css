@@ -44,9 +44,6 @@
   #ul_style {
     align-items: center;
   }
-  #ul_style #menu_item_active {
-    background-color: #054b5b;
-  }
   #ul_style #menu_item_active a {
     color: #f5f9ff;
   }
