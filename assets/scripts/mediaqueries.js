@@ -12,6 +12,7 @@ function tub_deactivator(screen_size){
 }
 
 //reloads the page on screen resize when navbar extends 
+
 function tub_activator(large_screens){
     location.reload();
     c
