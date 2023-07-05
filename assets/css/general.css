@@ -75,6 +75,9 @@
 #artcl .modal-dialog {
   max-width: max-content;
 }
+#artcl .modal-body {
+  display: flex;
+}
 #artcl .modal-body img {
   object-fit: contain;
 }
