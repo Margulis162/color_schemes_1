@@ -66,10 +66,17 @@
 #artcl figure img {
   width: 100%;
   height: 100%;
+  cursor: zoom-in;
 }
 #artcl #txt h1 {
   font-size: 150%;
   color: #054b5b;
+}
+#artcl .modal-dialog {
+  max-width: max-content;
+}
+#artcl .modal-body img {
+  object-fit: contain;
 }
 
 #artcl::-webkit-scrollbar {

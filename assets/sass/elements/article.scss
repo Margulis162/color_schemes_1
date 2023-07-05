@@ -16,6 +16,7 @@ overflow-y: scroll;
       img{
         width:100%;
         height:100%;
+        cursor: zoom-in;
       }
     }
     #txt{
@@ -23,48 +24,21 @@ overflow-y: scroll;
         font-size: 150%;
         color: analogous_blue.$color_seven
       }
-      
+    // the following three properties are to make images to fit into modal on zoom 
     }
-//   width: 1320px;
-  
+    .modal-dialog {
+      max-width: max-content;
+    }
+    
+    // .modal-body {
+    //   display: flex;
+    // }
+    
+    .modal-body img {
+      object-fit: contain;
+    }
 }
 
-//   #Degas {
-//     height: 300px;
-   
-   
-//     img {
-//       height: 300px;
-//       width: 330px;
-//     }
-//   }
-//   #txt {
-//     display: flex;
-//     flex:1 1 auto;
-//     flex-flow: column  wrap ;
-//     width:300px;
 
-//     margin: 0px 50px 0px 50px;
-//     h1 {
-     
-//       margin-bottom: 25px;
-//       font-size: large;
-//       font-weight: 600;
-//     }
-//     p {
-//       margin-bottom: 25px;
-     
-//     }
-//   }
-
-  // #txt{
-  //   align-self:flex-end;
-  // }
-
-  //  @media (max-width: 1320px) {
-  //    #sm {
-  //     max-width: 100%;
-  //    }
-// }
 #artcl::-webkit-scrollbar{
   display: none;}
