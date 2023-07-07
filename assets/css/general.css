@@ -97,7 +97,6 @@ body {
   flex-direction: column;
   scrollbar-width: none;
   height: 100vh;
-  overflow: hidden;
 }
 body p {
   color: #054b5b;
