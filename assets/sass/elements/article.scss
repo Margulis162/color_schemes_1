@@ -27,7 +27,7 @@ overflow-y: scroll;
     // the following three properties are to make images to fit into modal on zoom 
     }
     .modal-dialog {
-      max-width: max-content;
+      max-width: max-content !important;
     }
     
     .modal-body {
