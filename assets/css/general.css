@@ -69,8 +69,9 @@
   cursor: zoom-in;
 }
 #artcl #txt h1 {
-  font-size: 150%;
-  color: #054b5b;
+  font-family: Arial, Helvetica, sans-serifc;
+  color: #7778ce;
+  margin-bottom: 40px;
 }
 #artcl .modal-dialog {
   max-width: max-content !important;
@@ -81,14 +82,30 @@
 #artcl .modal-body img {
   object-fit: contain;
 }
+#artcl p {
+  letter-spacing: 0.1em;
+  font-size: large;
+  margin-bottom: 30px;
+  line-height: 1.8em;
+}
 
 #artcl::-webkit-scrollbar {
   display: none;
 }
 
+#ftr {
+  background-color: #7a8ba7;
+}
+#ftr span {
+  color: #f5f9ff;
+  padding: 10px 0px 10px 10px;
+}
 #ftr a {
   text-decoration: none;
-  color: #7a8ba7;
+  color: #f5f9ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
 }
 
 body {

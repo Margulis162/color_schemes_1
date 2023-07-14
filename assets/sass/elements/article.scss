@@ -21,8 +21,9 @@ overflow-y: scroll;
     }
     #txt{
       h1{
-        font-size: 150%;
-        color: analogous_blue.$color_seven
+        font-family:Arial, Helvetica, sans-serifc;
+        color: analogous_blue.$color_six;
+        margin-bottom: 40px;
       }
     // the following three properties are to make images to fit into modal on zoom 
     }
@@ -36,6 +37,12 @@ overflow-y: scroll;
     
     .modal-body img {
       object-fit: contain;
+    }
+    p{
+      letter-spacing: .1em;
+      font-size:large;
+      margin-bottom: 30px;
+      line-height: 1.8em;
     }
 }
 
