@@ -1,0 +1,22 @@
+@use "abstract/analogous_blue";
+@import 'elements/navbar.scss';
+@import 'elements/article.scss';
+@import "elements/footer.scss";
+body{
+    background-color: analogous_blue.$color_two !important; 
+   
+   display:flex-row;
+   flex-direction:column;
+   scrollbar-width: none;
+   height:100vh;
+ 
+   p{
+       color:analogous_blue.$color_seven;
+   }
+ 
+   img{
+    overflow:scroll;
+   }
+
+ 
+}

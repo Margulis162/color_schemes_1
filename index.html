@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Colors</title>
+   
+    <link rel="stylesheet" type="text/css" href="assets/css/general.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous"
+  />
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"
+  ></script>
+  <script language="JavaScript" type="text/javascript" src="assets/scripts/mediaqueries.js" defer></script>
+  </head>
+  <body>
+   
+    <!-- The idea of this project is to create a basic web page layout and to apply different color schemes to it. It would remind me few  things about CSS as well as
+        about colot theory. I also will mess with layout a bit, but just to the extend when it is not too ugly.-->
+        
+        <div class="container-md gy-0 gx-0 " id="nav_main">
+  <nav  class="navbar  navbar-dark navbar-expand-md py-0"> <!--padding y-->
+    
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"  aria-lable="extand navigation" id="toggler_icon" onclick="tub_deactivator(screen_size)""><span class="navbar-toggler-icon" ></span></button>
+      <div class="collapse navbar-collapse" id="nav">
+     <ul class="navbar-nav" id="ul_style" >
+      <li  class="nav-item" id="menu_item_active"><a class="nav-link  active" href="index.html">Analogous</a></li>
+      <li  class="nav-item" id="menu_item"><a class="nav-link" href="scheme_2.html">Complementary</a></li>
+      <li  class="nav-item" id="menu_item"><a  class="nav-link" href="scheme_3.html">Monochromatic</a></li>
+      <li  class="nav-item" id="menu_item"><a   class="nav-link" href="scheme_4.html">Triadic</a></li>
+    </ul> 
+     </div> 
+    </nav>
+</div> 
+      <div class="container-md  h-100 d-flex flex-column"> <!--display flex-->
+
+          <div class="row" id="artcl">
+
+            <div class="col-lg-3 col-md-12 mt-5" id="Degas">
+              <figure>
+                 <div data-bs-toggle="modal" data-bs-target="#zoom">
+
+                   <img  src="assets/images/alien_berry.svg" alt="Blue Dancers 1899 by Edgar Degas"  >
+                   
+                  </div>
+                <figcaption>Blue Dancers 1899 by Edgar Degas</figcaption>
+              </figure>
+
+
+              <!--modal for zooming-->
+              <div class="modal" id="zoom">
+                <div class="modal-dialog modal-xl modal-dialog-centered modal-fullscreen-md-down">
+                  <div class="modal-content">
+                    <div class="modal-header">
+            <h3>Blue Dancers 1899 by Edgar Degas</h3>
+                      <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body px-5">
+                      <img  src="assets/images/alien_berry.svg" alt="Blue Dancers 1899 by Edgar Degas" >
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+
+              <div class="col-lg-8 col-md-12 mt-5"  id="txt">
+                 <h1> Analogous Color Scheme</h1>
+            <p class="d-flex">
+              The analogous color scheme is a popular design technique that involves using colors that are adjacent to each other on the color wheel. This color scheme creates a harmonious and unified look by selecting colors that share similar undertones. For example, a classic analogous color scheme might include shades of blue, green, and purple. The primary color, in this case, could be blue, with green and purple serving as secondary colors. By using colors that are closely related, the analogous color scheme achieves a sense of coherence and balance in design projects. This scheme is often used to create a soothing and relaxing atmosphere, making it ideal for interior design, branding, and websites seeking a calm and inviting feel.
+            </p>
+          <p>
+            The analogous color scheme offers designers a wide range of possibilities when it comes to creating visual compositions. With the use of neighboring colors on the color wheel, designers can achieve a seamless transition from one color to another. This scheme allows for subtle variations in tone and intensity while maintaining a cohesive appearance. One advantage of the analogous color scheme is its versatility in expressing different moods and emotions. For instance, a warm analogous color scheme composed of red, orange, and yellow can convey energy, excitement, and vibrancy. On the other hand, a cool analogous color scheme using shades of green and blue can evoke a sense of tranquility and serenity. By understanding the relationships between colors and harnessing the power of analogous color schemes, designers can create visually engaging and emotionally impactful designs.
+          </p>
+          
+          
+        </div>
+        
+        
+        
+        
+        
+        
+      </div>
+      <footer  class="row mt-auto " id="ftr"> <!--margin top auto-->
+        <span class="col-lg-6 col-md-12 col-12">&copy all text generated | design by <a href="#" >Mark Margulis</a></span> 
+      </footer>
+    </div>
+    
+    </body>
+    </html> 
+
+<!-- TODO: 1.Fix the bug with disappearing footer on small screens
+      2. Add content and colors for the other pages
+      3. Add title tag ( up to 60 char), add meta disctiption ( up to 155 char), xml sitemap, urls with keywords, headers
+      4. Add texture 
+      5. Make pictures zoomable with modals and zoomin cursor?-->

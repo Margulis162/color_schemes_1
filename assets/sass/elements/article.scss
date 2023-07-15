@@ -1,0 +1,51 @@
+#artcl {
+
+  height:100%;
+  background-color: analogous_blue.$color_four;
+
+
+font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+"Lucida Sans", Arial, sans-serif;
+overflow-y: scroll;
+  scrollbar-width: none;
+#Degas{
+  margin-top:30px;
+
+}
+    figure{
+      img{
+        width:100%;
+        height:100%;
+        cursor: zoom-in;
+      }
+    }
+    #txt{
+      h1{
+        font-family:Arial, Helvetica, sans-serifc;
+        color: analogous_blue.$color_six;
+        margin-bottom: 40px;
+      }
+    // the following three properties are to make images to fit into modal on zoom 
+    }
+    .modal-dialog {
+      max-width: max-content !important;
+    }
+    
+    .modal-body {
+      display: flex;
+    }
+    
+    .modal-body img {
+      object-fit: contain;
+    }
+    p{
+      letter-spacing: .1em;
+      font-size:large;
+      margin-bottom: 30px;
+      line-height: 1.8em;
+    }
+}
+
+
+#artcl::-webkit-scrollbar{
+  display: none;}

@@ -1,0 +1,125 @@
+#nav_main {
+  background-color: #054b5b;
+}
+
+#ul_style {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+}
+#ul_style #menu_item_active {
+  width: 25%;
+  margin-top: 10px;
+  background-color: #f5f9ff;
+  border-radius: 5px 5px 0px 0px;
+}
+#ul_style #menu_item_active a {
+  margin-top: 10px;
+  text-decoration: none;
+  display: flex;
+  color: #054b5b;
+  font-size: 120%;
+  font-weight: bold;
+  justify-content: center;
+  font-style: none;
+}
+#ul_style #menu_item {
+  display: flex;
+  width: 25%;
+  justify-content: center;
+}
+#ul_style #menu_item a {
+  display: flex;
+  color: #f5f9ff;
+  align-items: flex-end;
+  font-size: 120%;
+  font-weight: bold;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  #ul_style {
+    align-items: center;
+  }
+  #ul_style #menu_item_active a {
+    color: #f5f9ff;
+  }
+  #toggler_icon {
+    width: 100%;
+    align-self: center;
+    margin: 10px;
+  }
+}
+#artcl {
+  height: 100%;
+  background-color: #f5f9ff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+#artcl #Degas {
+  margin-top: 30px;
+}
+#artcl figure img {
+  width: 100%;
+  height: 100%;
+  cursor: zoom-in;
+}
+#artcl #txt h1 {
+  font-family: Arial, Helvetica, sans-serifc;
+  color: #7778ce;
+  margin-bottom: 40px;
+}
+#artcl .modal-dialog {
+  max-width: max-content !important;
+}
+#artcl .modal-body {
+  display: flex;
+}
+#artcl .modal-body img {
+  object-fit: contain;
+}
+#artcl p {
+  letter-spacing: 0.1em;
+  font-size: large;
+  margin-bottom: 30px;
+  line-height: 1.8em;
+}
+
+#artcl::-webkit-scrollbar {
+  display: none;
+}
+
+#ftr {
+  background-color: #7a8ba7;
+}
+#ftr span {
+  color: #f5f9ff;
+  padding: 10px 0px 10px 10px;
+}
+#ftr a {
+  text-decoration: none;
+  color: #f5f9ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+body {
+  background-color: #77a8ce !important;
+  display: flex;
+  flex-direction: column;
+  scrollbar-width: none;
+  height: 100vh;
+}
+body p {
+  color: #054b5b;
+}
+body img {
+  overflow: scroll;
+}
+
+/*# sourceMappingURL=general.css.map */
