@@ -5,7 +5,7 @@
 body{
     background-color: analogous_blue.$color_two !important; 
    
-   display:flex;
+   display:flex-row;
    flex-direction:column;
    scrollbar-width: none;
    height:100vh;
@@ -17,5 +17,6 @@ body{
    img{
     overflow:scroll;
    }
+
  
 }
