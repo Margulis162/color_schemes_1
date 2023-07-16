@@ -95,17 +95,14 @@
 
 #ftr {
   background-color: #7a8ba7;
+  height: 75px;
 }
 #ftr span {
   color: #f5f9ff;
-  padding: 10px 0px 10px 10px;
 }
 #ftr a {
   text-decoration: none;
   color: #f5f9ff;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: left;
 }
 
 body {
@@ -113,7 +110,7 @@ body {
   display: flex;
   flex-direction: column;
   scrollbar-width: none;
-  height: 100vh;
+  height: calc(100vh + 75px);
 }
 body p {
   color: #054b5b;
