@@ -8,10 +8,7 @@ font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
 "Lucida Sans", Arial, sans-serif;
 overflow-y: scroll;
   scrollbar-width: none;
-#Degas{
-  margin-top:30px;
 
-}
     figure{
       img{
         width:100%;
@@ -45,7 +42,12 @@ overflow-y: scroll;
       line-height: 1.8em;
     }
 }
+ figcaption{
+  margin-top: 10px !important ; 
+  font-family:Arial, Helvetica, sans-serifc !important;
+  color: analogous_blue.$color_six;
 
+ }
 
 #artcl::-webkit-scrollbar{
   display: none;}
