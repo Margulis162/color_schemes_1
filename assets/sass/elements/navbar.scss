@@ -24,7 +24,7 @@
       font-size: 120%;
       font-weight: bold;
       justify-content:center;
-      
+      letter-spacing: 0.03em;
       
       font-style:none;
       
@@ -43,6 +43,7 @@
         justify-content:center;
         text-decoration:none;
         margin-top:10px;
+        letter-spacing: 0.03em;
     }
   }
 }
@@ -53,7 +54,7 @@
 #ul_style{
   align-items: center;
   #menu_item_active{
-    // background-color: analogous_blue.$color_seven;
+  
     a{
     color:analogous_blue.$color_four;
     }

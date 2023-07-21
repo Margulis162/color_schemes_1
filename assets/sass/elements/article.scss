@@ -18,9 +18,10 @@ overflow-y: scroll;
     }
     #txt{
       h1{
-        font-family:Arial, Helvetica, sans-serifc;
-        color: analogous_blue.$color_six;
-        margin-bottom: 40px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: analogous_blue.$color_seven;
+        margin-bottom: 30px;
+        font-size: 1.9em;
       }
     // the following three properties are to make images to fit into modal on zoom 
     }
@@ -36,17 +37,19 @@ overflow-y: scroll;
       object-fit: contain;
     }
     p{
-      letter-spacing: .1em;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      letter-spacing: .05em;
       font-size:large;
       margin-bottom: 30px;
-      line-height: 1.8em;
+      line-height: 1.5em;
+      
     }
 }
  figcaption{
   margin-top: 10px !important ; 
-  font-family:Arial, Helvetica, sans-serifc !important;
-  color: analogous_blue.$color_six;
-
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
+  color: analogous_blue.$color_seven;
+  font-style:italic !important; 
  }
 
 #artcl::-webkit-scrollbar{

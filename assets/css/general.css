@@ -22,6 +22,7 @@
   font-size: 120%;
   font-weight: bold;
   justify-content: center;
+  letter-spacing: 0.03em;
   font-style: none;
 }
 #ul_style #menu_item {
@@ -38,6 +39,7 @@
   justify-content: center;
   text-decoration: none;
   margin-top: 10px;
+  letter-spacing: 0.03em;
 }
 
 @media (max-width: 768px) {
@@ -66,9 +68,10 @@
   cursor: zoom-in;
 }
 #artcl #txt h1 {
-  font-family: Arial, Helvetica, sans-serifc;
-  color: #7778ce;
-  margin-bottom: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #054b5b;
+  margin-bottom: 30px;
+  font-size: 1.9em;
 }
 #artcl .modal-dialog {
   max-width: max-content !important;
@@ -80,16 +83,18 @@
   object-fit: contain;
 }
 #artcl p {
-  letter-spacing: 0.1em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 0.05em;
   font-size: large;
   margin-bottom: 30px;
-  line-height: 1.8em;
+  line-height: 1.5em;
 }
 
 figcaption {
   margin-top: 10px !important;
-  font-family: Arial, Helvetica, sans-serifc !important;
-  color: #7778ce;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif !important;
+  color: #054b5b;
+  font-style: italic !important;
 }
 
 #artcl::-webkit-scrollbar {
