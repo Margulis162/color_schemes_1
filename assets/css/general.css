@@ -72,6 +72,7 @@
   color: #054b5b;
   margin-bottom: 30px;
   font-size: 1.9em;
+  letter-spacing: 0.03em;
 }
 #artcl .modal-dialog {
   max-width: max-content !important;
