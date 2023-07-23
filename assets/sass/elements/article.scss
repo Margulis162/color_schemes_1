@@ -20,7 +20,7 @@
         "Lucida Sans", Arial, sans-serif;
       color: analogous_blue.$color_seven;
       margin-bottom: 30px;
-      font-size: 1.9em;
+      font-size: 32px;
       letter-spacing: 0.03em;
     }
     // the following three properties are to make images to fit into modal on zoom
@@ -42,13 +42,13 @@
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
     letter-spacing: 0.05em;
-    font-size: large;
+    font-size: 16px;
     margin-bottom: 30px;
     line-height: 1.5em;
   }
 }
 figcaption {
-  margin-top: 10px !important ;
+  margin-top: 16px !important ;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif !important;
   color: analogous_blue.$color_seven;
