@@ -137,4 +137,13 @@ body img {
   overflow: scroll;
 }
 
+@media (max-width: 992px) {
+  dody {
+    min-height: calc(100% + 60px);
+  }
+  #ftr {
+    height: 60px;
+  }
+}
+
 /*# sourceMappingURL=general.css.map */
