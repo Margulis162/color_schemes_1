@@ -35,7 +35,9 @@
 
   .modal-body img {
     object-fit: contain;
+    border-radius:5px;
   }
+
   p {
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
@@ -52,6 +54,7 @@ figcaption {
   color: analogous_blue.$color_seven;
   font-style: italic !important;
 }
+
 
 #artcl::-webkit-scrollbar {
   display: none;
