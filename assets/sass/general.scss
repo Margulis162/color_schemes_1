@@ -8,7 +8,7 @@ body{
    display:flex;
    flex-direction:column;
    scrollbar-width: none;
-   height: calc(100vh + 75px);
+   height: 100vh;
  
    p{
        color:analogous_blue.$color_seven;
@@ -17,6 +17,9 @@ body{
    img{
     overflow:scroll;
    }
- 
+   
 }
+
+
+   
 

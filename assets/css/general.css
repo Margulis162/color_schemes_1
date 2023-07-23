@@ -115,12 +115,17 @@ figcaption {
   color: #f5f9ff;
 }
 
+@media (min-width: 992px) {
+  #ftr {
+    height: 30px;
+  }
+}
 body {
   background-color: #77a8ce !important;
   display: flex;
   flex-direction: column;
   scrollbar-width: none;
-  height: calc(100vh + 75px);
+  height: 100vh;
 }
 body p {
   color: #054b5b;
