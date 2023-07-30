@@ -10,12 +10,12 @@
 }
 #ul_style #menu_item_active {
   width: 25%;
-  margin-top: 10px;
   background-color: #f5f9ff;
   border-radius: 5px 5px 0px 0px;
 }
 #ul_style #menu_item_active a {
-  margin-top: 10px;
+  padding-top: 30px;
+  margin: -10px;
   text-decoration: none;
   display: flex;
   color: #054b5b;
@@ -31,6 +31,7 @@
   justify-content: center;
 }
 #ul_style #menu_item a {
+  text-shadow: 1px 1px 1px rgb(1, 29, 41);
   display: flex;
   color: #f5f9ff;
   align-items: flex-end;

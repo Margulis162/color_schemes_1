@@ -11,13 +11,15 @@
     
   #menu_item_active {
     width:25%;
-    margin-top:10px;
+   
     
     background-color: analogous_blue.$color_four;
     border-radius: 5px 5px 0px 0px;
     
-    a {
-      margin-top:10px;
+    a { 
+      // text-shadow: -1px -1px 1px rgb(255, 255, 255);
+      padding-top:30px;
+      margin:-10px;
       text-decoration:none;
       display:flex;
       color: analogous_blue.$color_seven;
@@ -25,16 +27,16 @@
       font-weight: bold;
       justify-content:center;
       letter-spacing: 0.03em;
-      
       font-style:none;
       
     }}
     #menu_item {
       display:flex;
       width:25%;
-      
+     
       justify-content:center;
       a {
+        text-shadow: 1px 1px 1px rgb(1, 29, 41);
         display:flex;
         color: analogous_blue.$color_four;
         align-items: flex-end;
