@@ -2,7 +2,7 @@
 
 COLOR SCHEMES
 
-This project is my very first attempt at web development. It was partially inspired by an outdated book on web design that I was reading at the time. During the development process, I had the opportunity to familiarize myself with Bootstrap, JS, and SASS, as well as some basic design concepts such as layout, typography, and color schemes.
+This project is my very first attempt at web development. It was partially inspired by a book  I was reading at the time (The Principles of Beautiful Web Design (third edition) by Jason Beaird & James George). During the development process, I had the opportunity to familiarize myself with Bootstrap, JS, and SASS, as well as some basic design concepts such as layout, typography, and color schemes.
 
 FEATURES
 
@@ -31,3 +31,4 @@ ACKNOWLEDMENTS
 Adeline Margulis  -  https://github.com/Hvitrevs
 Bootstrap 5 Crash Course  -   https://www.youtube.com/watch?v=Jyvffr3aCp0&t=3617s
 ChatGPT
+The Principles of Beautiful Web Design (third edition) by Jason Beaird & James George

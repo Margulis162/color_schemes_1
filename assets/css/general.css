@@ -24,6 +24,7 @@
   justify-content: center;
   letter-spacing: 0.03em;
   font-style: none;
+  text-shadow: none;
 }
 #ul_style .menu_item {
   display: flex;
