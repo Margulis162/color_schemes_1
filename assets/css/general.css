@@ -135,12 +135,12 @@ body p {
   color: #054b5b;
 }
 body img {
-  overflow: scroll;
+  overflow: auto;
 }
 
 @media (max-width: 992px) {
   dody {
-    min-height: calc(100% + 60px);
+    min-height: auto;
   }
   #ftr {
     height: 60px;
