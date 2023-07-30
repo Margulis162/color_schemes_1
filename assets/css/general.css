@@ -25,12 +25,12 @@
   letter-spacing: 0.03em;
   font-style: none;
 }
-#ul_style #menu_item {
+#ul_style .menu_item {
   display: flex;
   width: 25%;
   justify-content: center;
 }
-#ul_style #menu_item a {
+#ul_style .menu_item a {
   text-shadow: 1px 1px 1px rgb(1, 29, 41);
   display: flex;
   color: #f5f9ff;
