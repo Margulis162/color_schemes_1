@@ -1,4 +1,5 @@
 
+![Screenshot from 2023-12-03 19-19-30](https://github.com/Margulis162/color_schemes_1/assets/134349936/3cd14909-9f2b-41a9-a9cd-f1a68c99a8ba)
 
 COLOR SCHEMES
 
@@ -13,6 +14,9 @@ SASS: for creation of easier maintence of CSS.
 
 DESIGN & INSPIRATION
 The outdated web design book served as a partial inspiration for this project. I applied certain design elements and concepts from the book, which influenced the project's overall look and feel.
+
+SEE LIVE
+https://margulis162.github.io/color_schemes_1/index.html
 
 INSTALLATION
 ...
