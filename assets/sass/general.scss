@@ -4,6 +4,7 @@
 @import "elements/footer.scss";
 body{
     background-color: analogous_blue.$color_two !important; 
+    background-image: linear-gradient(to right, analogous_blue.$color_two, analogous_blue.$color_seven, analogous_blue.$color_two );
    
    display:flex;
    flex-direction:column;

@@ -1,5 +1,6 @@
 #nav_main {
   background-color: #054b5b;
+  background-image: linear-gradient(to bottom, #054b5b, #587a94);
 }
 
 #ul_style {
@@ -125,6 +126,7 @@ figcaption {
 }
 body {
   background-color: #77a8ce !important;
+  background-image: linear-gradient(to right, #77a8ce, #054b5b, #77a8ce);
   display: flex;
   flex-direction: column;
   scrollbar-width: none;
