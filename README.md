@@ -1,38 +1,25 @@
 
 ![Screenshot from 2023-12-03 19-19-30](https://github.com/Margulis162/color_schemes_1/assets/134349936/3cd14909-9f2b-41a9-a9cd-f1a68c99a8ba)
 
-COLOR SCHEMES
+Project Description:
 
-This project is my very first attempt at web development. It was partially inspired by a book  I was reading at the time (The Principles of Beautiful Web Design (third edition) by Jason Beaird & James George). During the development process, I had the opportunity to familiarize myself with Bootstrap, JS, and SASS, as well as some basic design concepts such as layout, typography, and color schemes.
+This project is my very first attempt at web development. It was partially inspired by a book I was reading at the time, "The Principles of Beautiful Web Design" (third edition) by Jason Beaird & James George. During the development process, I had the opportunity to familiarize myself with Bootstrap, JS, and SASS, as well as some basic design concepts such as layout, typography, and color schemes.
+Features:
 
-FEATURES
+    Bootstrap: for layout and responsiveness.
+    JavaScript (JS): for responsiveness.
+    SASS: for the creation of easier maintenance of CSS.
 
-Bootstrap: layout and responsivness.
-JavaScript (JS): responsivnes.
-SASS: for creation of easier maintence of CSS.
- 
+Design & Inspiration:
 
-DESIGN & INSPIRATION
 The outdated web design book served as a partial inspiration for this project. I applied certain design elements and concepts from the book, which influenced the project's overall look and feel.
+See Live:
 
-SEE LIVE
 https://margulis162.github.io/color_schemes_1/index.html
+Acknowledgments:
 
-INSTALLATION
-...
+    Adeline Margulis - https://github.com/Hvitrevs
+    Bootstrap 5 Crash Course - https://www.youtube.com/watch?v=Jyvffr3aCp0&t=3617s
+    ChatGPT
+    "The Principles of Beautiful Web Design" (third edition) by Jason Beaird & James George.
 
-USAGE
-...
-
-KNOWN ISSUES 
-...
-
-CONTRIBUTING
-...
-
-ACKNOWLEDMENTS
-
-Adeline Margulis  -  https://github.com/Hvitrevs
-Bootstrap 5 Crash Course  -   https://www.youtube.com/watch?v=Jyvffr3aCp0&t=3617s
-ChatGPT
-The Principles of Beautiful Web Design (third edition) by Jason Beaird & James George
